@@ -63,7 +63,7 @@ class PublicDisplay:
         screenwidth = root.winfo_screenwidth()
         screenheight = root.winfo_screenheight()
         #Debug 
-        screenwidth = min(screenwidth, max(800, screenheight * 3 / 4))
+#        screenwidth = min(screenwidth, max(800, screenheight * 3 / 4))
 
         #Set up application window
         root.overrideredirect(1)
